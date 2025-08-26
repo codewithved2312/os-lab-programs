@@ -107,7 +107,7 @@ int main() {   //execution starts from here
 
     // dynamic memory allocation for process array
    Process *process = (Process*)malloc(num_of_process*sizeof(Process));
-  //  Process *process = (Process*)calloc(num_of_process*,sizeof(Process));
+  //  Process *process = (Process*)calloc(num_of_process,sizeof(Process));
 
   for(int i=0; i<num_of_process; i++) {
     printf("enter process details for process  %d",i+1);
@@ -128,4 +128,5 @@ int main() {   //execution starts from here
 
 return 0;  //end of code
 }
+
 
